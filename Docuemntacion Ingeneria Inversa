@@ -1,0 +1,57 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[spanish]{babel}
+\usepackage{listings}
+
+% Preámbulo
+
+\title{Análisis de ingeniería inversa sobre un sistema \textit{legacy}}
+\author{Base de Datos }
+\date{\today}
+
+\usepackage{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\lstset{style=mystyle}
+
+ 
+
+\begin{document}
+\maketitle
+
+
+\section{Introducción}
+Se nos ha encomendado realizar ingenria inversa y posteriormente el analisis de un conjunto de archivos uqe comprenden
+la definicion estructural y logica de la base de datos de un istema "Legacy".Con la finalidad de practicar e integrar todo lo 
+aprendido 
+\section{Descripción del problema}
+\section{Análisis}
+\section{Diagramas y resultados}
+\section{Implementación y validación}
+\section{Conclusiones}
+
+
+
+
+\end{document}
