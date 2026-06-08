@@ -1,7 +1,7 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {section}{\numberline {1}Introducción}{1}{}%
 \contentsline {section}{\numberline {2}Descripción del problema}{1}{}%
-\contentsline {subsection}{\numberline {2.1}Análisis}{1}{}%
-\contentsline {subsection}{\numberline {2.2}Diagramas y resultados}{1}{}%
-\contentsline {subsection}{\numberline {2.3}Implementación y validación}{1}{}%
-\contentsline {section}{\numberline {3}Conclusiones}{1}{}%
+\contentsline {section}{\numberline {3}Análisis}{1}{}%
+\contentsline {section}{\numberline {4}Diagramas y resultados}{1}{}%
+\contentsline {section}{\numberline {5}Implementación y validación}{1}{}%
+\contentsline {section}{\numberline {6}Conclusiones}{1}{}%

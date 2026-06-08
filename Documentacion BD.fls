@@ -1,6 +1,6 @@
-PWD c:\Users\Personal\OneDrive\Escritorio\database monroy\database documentation
+PWD c:\Users\Personal\OneDrive\Escritorio\database monroy
 INPUT C:\Users\Personal\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Personal\OneDrive\Escritorio\database monroy\database documentation\Documentacion BD.tex
+INPUT c:\Users\Personal\OneDrive\Escritorio\database monroy\Documentacion BD.tex
 OUTPUT Documentacion BD.log
 INPUT C:\Users\Personal\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Personal\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
