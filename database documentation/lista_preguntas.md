@@ -32,19 +32,25 @@ Carlos	Sánchez	9.20
 hacemos nuevamente un select que pida  nombre , apellidos y notas de todos los alumnos inscritos a un curso , luego hacemos unos JOINS , el primero pide las inscripciones x estudiante y que devuelva las inscripcones con el id de estudainte , el segundo las notas de las inscripciones (id) y un where donde se estipule que las solamente nos de los estudaintes con las notas mayores a 8.0
 
 6.¿Que cursos tienen mas de una inscripcion?
+Para eso usamos HAVING para replamzar al WHERE pero que sirve par afiltrar despues 
+de hacer un contado , osea decirle al SQL "Agrupa a todos , cuentalos y luego solo 
+necesito solo los que tengan mas de un curso inscrito"
 
 
 7.¿Que profesores pertenecen al departamento de 'Ingeneria'?
+aqui solo vamos a requirir 2 tablas (profesrores y departamentos) y filtrar
+por el nombre del departamento que requerimos 
 
 8.¿Cuales son los cursos  programados los lunes?
+
 
 9.¿Que aulas tienen una capacidad mayor a 25?
 
 10.Lista de cursos con su aula y horario
 
-11.¿Que estudiantes tienen la nota mas alta y en que cursos?
+11.¿Cuantos profesores hay por departamento?
 
-12.¿Cuantos profesores hay por departamento ?
+12.¿Cuantos profesores hay por departamento?
 
 13.¿Que cursos no tienen estudiantes inscritos?
 
