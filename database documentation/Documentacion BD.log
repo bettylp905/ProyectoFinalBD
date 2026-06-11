@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.2)  10 JUN 2026 09:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.2)  11 JUN 2026 12:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -141,10 +141,6 @@ LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
 (babel)             Reported on input line 8.
-
-
-LaTeX Warning: Label `fig-Ingeneria-Inversa' multiply defined.
-
 )
 \openout1 = `"Documentacion BD.aux"'.
 
@@ -217,22 +213,12 @@ File: images/P1.png Graphic file (type png)
 <use images/P1.png>
 Package pdftex.def Info: images/P1.png  used on input line 88.
 (pdftex.def)             Requested size: 345.0pt x 81.21317pt.
-File: images/Ingeneria-Inversa.png Graphic file (type png)
-<use images/Ingeneria-Inversa.png>
-Package pdftex.def Info: images/Ingeneria-Inversa.png  used on input line 93.
-(pdftex.def)             Requested size: 387.44063pt x 327.21669pt.
-
-Overfull \hbox (42.44063pt too wide) in paragraph at lines 93--94
-[][] 
- []
-
-[2 <./images/Ingeneria-Inversa.png> <./images/P1.png>]
-<images/P2.png, id=17, 542.77782pt x 316.93407pt>
+<images/P2.png, id=13, 542.77782pt x 316.93407pt>
 File: images/P2.png Graphic file (type png)
 <use images/P2.png>
-Package pdftex.def Info: images/P2.png  used on input line 100.
+Package pdftex.def Info: images/P2.png  used on input line 97.
 (pdftex.def)             Requested size: 345.0pt x 201.45883pt.
- [3] [4 <./images/P2.png>] (Documentacion BD.aux
+ [2 <./images/Ingeneria-Inversa.png> <./images/P1.png>] [3 <./images/P2.png>] (Documentacion BD.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
@@ -240,23 +226,19 @@ LaTeX Info: Redefining \% on input line 8.
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
  4744 strings out of 467871
  76278 string characters out of 5416925
- 502773 words of memory out of 5000000
+ 502734 words of memory out of 5000000
  33613 multiletter control sequences out of 15000+600000
  631708 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,12n,65p,315b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Personal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Personal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Personal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Personal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Personal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Documentacion BD.pdf" (4 pages, 161658 bytes).
+Output written on "Documentacion BD.pdf" (3 pages, 160929 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
+ 43 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
