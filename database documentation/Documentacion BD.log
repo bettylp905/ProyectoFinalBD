@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.2)  11 JUN 2026 14:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.2)  12 JUN 2026 10:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -256,30 +256,64 @@ Package pdftex.def Info: images/P6.png  used on input line 173.
 <images/P7.png, id=45, 381.67593pt x 322.20375pt>
 File: images/P7.png Graphic file (type png)
 <use images/P7.png>
-Package pdftex.def Info: images/P7.png  used on input line 182.
+Package pdftex.def Info: images/P7.png  used on input line 189.
 (pdftex.def)             Requested size: 345.0pt x 291.25404pt.
- [8 <./images/P6.png>]
+
+Underfull \hbox (badness 1442) in paragraph at lines 191--194
+[]\OT1/cmr/m/n/10 Seleccionamos los nom-bres y ape-lli-dos de los pro-fe-so-res, don-de es-te el
+ []
+
+[8 <./images/P6.png>]
 <images/P8.png, id=50, 366.61969pt x 327.47343pt>
 File: images/P8.png Graphic file (type png)
 <use images/P8.png>
-Package pdftex.def Info: images/P8.png  used on input line 191.
+Package pdftex.def Info: images/P8.png  used on input line 201.
 (pdftex.def)             Requested size: 345.0pt x 308.17986pt.
  [9 <./images/P7.png>]
 <images/P9.png, id=55, 419.31656pt x 387.69844pt>
 File: images/P9.png Graphic file (type png)
 <use images/P9.png>
-Package pdftex.def Info: images/P9.png  used on input line 200.
+Package pdftex.def Info: images/P9.png  used on input line 213.
 (pdftex.def)             Requested size: 345.0pt x 318.98552pt.
  [10 <./images/P8.png>]
 <images/P10.png, id=60, 314.67563pt x 609.77812pt>
 File: images/P10.png Graphic file (type png)
 <use images/P10.png>
-Package pdftex.def Info: images/P10.png  used on input line 209.
+Package pdftex.def Info: images/P10.png  used on input line 224.
 (pdftex.def)             Requested size: 345.0pt x 668.57146pt.
  [11 <./images/P9.png>]
-Overfull \vbox (215.13524pt too high) has occurred while \output is active []
+Overfull \vbox (274.2797pt too high) has occurred while \output is active []
 
- [12 <./images/P10.png>] Excluding 'comment' comment. [13] (Documentacion BD.aux
+ [12 <./images/P10.png>]
+<images/P11.png, id=69, 421.575pt x 219.82124pt>
+File: images/P11.png Graphic file (type png)
+<use images/P11.png>
+Package pdftex.def Info: images/P11.png  used on input line 239.
+(pdftex.def)             Requested size: 345.0pt x 179.89568pt.
+<images/P12.png, id=70, 370.38374pt x 305.64188pt>
+File: images/P12.png Graphic file (type png)
+<use images/P12.png>
+Package pdftex.def Info: images/P12.png  used on input line 252.
+(pdftex.def)             Requested size: 345.0pt x 284.70103pt.
+ [13 <./images/P11.png>]
+<images/P13.png, id=76, 434.37282pt x 360.59718pt>
+File: images/P13.png Graphic file (type png)
+<use images/P13.png>
+Package pdftex.def Info: images/P13.png  used on input line 265.
+(pdftex.def)             Requested size: 345.0pt x 286.42029pt.
+ [14 <./images/P12.png>]
+<images/P14.png, id=81, 368.1253pt x 304.13625pt>
+File: images/P14.png Graphic file (type png)
+<use images/P14.png>
+Package pdftex.def Info: images/P14.png  used on input line 275.
+(pdftex.def)             Requested size: 345.0pt x 285.05276pt.
+ [15 <./images/P13.png>]
+<images/P15.png, id=86, 316.18124pt x 237.13594pt>
+File: images/P15.png Graphic file (type png)
+<use images/P15.png>
+Package pdftex.def Info: images/P15.png  used on input line 285.
+(pdftex.def)             Requested size: 345.0pt x 258.76974pt.
+ [16 <./images/P14.png>] [17 <./images/P15.png>] (Documentacion BD.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
@@ -289,17 +323,17 @@ L3 programming layer <2025-12-24>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4878 strings out of 467871
- 78851 string characters out of 5416925
+ 4920 strings out of 467871
+ 79643 string characters out of 5416925
  503685 words of memory out of 5000000
- 33743 multiletter control sequences out of 15000+600000
+ 33785 multiletter control sequences out of 15000+600000
  631708 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,12n,65p,315b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Personal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Personal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Personal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Personal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Personal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Personal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Documentacion BD.pdf" (13 pages, 356459 bytes).
+Output written on "Documentacion BD.pdf" (17 pages, 450388 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
+ 121 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

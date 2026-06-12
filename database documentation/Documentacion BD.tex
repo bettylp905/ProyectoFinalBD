@@ -172,63 +172,88 @@ hacemos nuevamente un select que pida  nombre , apellidos y notas de todos los a
     \caption{Implementación de Consulta en SQL para la Pregunta 6}
     \includegraphics[width=\textwidth]{P6.png}
     \section*{¿Que cursos tienen mas de una inscripcion?}
+    Tenemos que irnos s la tabla de nombre y contar los IDs
+    de todos los curso de nuestra BD , despues tenemos un JOIN
+    para ver el estado de las inscripciones y luego con el ON
+    esta para ver los ids de los cursos y ya para finalizar 
+    tenemos un HAVING para saber que cursos tengan  más de un 
+    inscripción
+
 \end{figure}
 
 %pregunta 7
 \section*{}
 \begin{figure}[H]
     \graphicspath{{images/}}
-    \caption{Implementación de Consulta en SQL para la Pregunta 6}
+    \caption{Implementación de Consulta en SQL para la Pregunta 7}
     \includegraphics[width=\textwidth]{P7.png}  
-    \section*{¿Que profesores pertenecen al departamento de Ingeneria?}
+    \section*{¿Que profesores pertenecen al departamento de Ingeniería?}
+    Seleccionamos los nombres y apellidos de los profesores, donde este el id\_departamento
+    selecciona los IDs y ponemos el parametro de que solo queremos a profesores que pertenezcan
+    al departamento de Ingeniería
 \end{figure}
 
 %pregunta 8
 \section*{}
 \begin{figure}[H]
     \graphicspath{{images/}}
-    \caption{Implementación de Consulta en SQL para la Pregunta 6}
+    \caption{Implementación de Consulta en SQL para la Pregunta 8}
     \includegraphics[width=\textwidth]{P8.png}  
-    \section*{¿Cuales son los cursos  programados los Lunes?}
+    \section*{¿Cuales son los cursos programados los Lunes?}
+    Seleccionamos de las tablas/columnas (nombres, hora\_inicio, c\_id)
+    desde la tabla de horario, y unimos (join) en el horario de id del curso
+    donde solo este programado el día Lunes
 \end{figure}
 
 %pregunta 9
 \section*{}
 \begin{figure}[H]
     \graphicspath{{images/}}
-    \caption{Implementación de Consulta en SQL para la Pregunta 6}
+    \caption{Implementación de Consulta en SQL para la Pregunta 9}
     \includegraphics[width=\textwidth]{P9.png}
     \section*{¿Que aulas tienen una capacidad mayor a 25?}
+    Seleccionamos el nombre y la capacidad desde la tabla de Aulas
+    donde la capacidad sea mayor a 25 alumnos.
 \end{figure}
 
 %pregunta 10
 \section*{}
 \begin{figure}[H]
     \graphicspath{{images/}}
-    \caption{Implementación de Consulta en SQL para la Pregunta 6}
+    \caption{Implementación de Consulta en SQL para la Pregunta 10}
     \includegraphics[width=\textwidth]{P10.png} %cambiar esto 
     \section*{¿Que aulas tienen una capacidad mayor a 25?}
+    Vamos a seleccionar varios elementos de nuestras tablas c.nombre, a.nombre
+    aula, h.dia.semana, h.hora\_inicio, h.hora\_fin (o sea básicamente lo que queremos saber
+    es primero conocer el nombre del curso, luego el nombre del aula y a qué hora empiezan y terminan las clases)
+    donde los horarios se unan con el id de cursos y aula
     
 \end{figure}
 
-\begin{comment}
+
 %pregunta 11
 \section*{}
 \begin{figure}[H]
 \graphicspath{{images/}}
-\caption{Implementación de Consulta en SQL para la Pregunta 6}
-\includegraphics[width=\textwidth]{P6.png} %cambiar esto 
+\caption{Implementación de Consulta en SQL para la Pregunta 11}
+\includegraphics[width=\textwidth]{P11.png}  
 \section*{Lista de cursos con su aula y horario}
-
+Seleccioanmos de la tabla de estudiantes sus nombres y apellidos , y el nombre del curso (de la tabla de cursos )
+va a ser seleccionado como un curso  y de la tabla notas vamos a consultar la notas de todos los cursos
+Desspues vamos a implementar 3 JOINS(que van a solicitar/consultar inscripciones,estudiantes y cursos)
+y va a ordenar las notas mayores solamente y va a relacionarla con el curso 
 \end{figure}
 
 %pregunta 12
 \section*{}
 \begin{figure}[H]
 \graphicspath{{images/}}
-\caption{Implementación de Consulta en SQL para la Pregunta 6}
-\includegraphics[width=\textwidth]{P6.png} %cambiar esto 
+\caption{Implementación de Consulta en SQL para la Pregunta 12}
+\includegraphics[width=\textwidth]{P12.png}  
 \section*{¿Cuantos profesores hay por departamento?}
+Selccionamos de la tabla de departamentos con un COUNT la cantidad de profesores
+ocupamos un $LEFT JOIN$ que junte a profesores con su id de departamento
+y los juntamos con el id de departamento de la tabla de departamentos y para finalizar agrupamos por el nombre del departamento
 
 \end{figure}
 
@@ -236,8 +261,8 @@ hacemos nuevamente un select que pida  nombre , apellidos y notas de todos los a
 \section*{}
 \begin{figure}[H]
 \graphicspath{{images/}}
-\caption{Implementación de Consulta en SQL para la Pregunta 6}
-\includegraphics[width=\textwidth]{P6.png} %cambiar esto 
+\caption{Implementación de Consulta en SQL para la Pregunta 13}
+\includegraphics[width=\textwidth]{P13.png}  
 \section*{¿Cuantos profesores hay por departamento?}
 
 \end{figure}
@@ -246,8 +271,8 @@ hacemos nuevamente un select que pida  nombre , apellidos y notas de todos los a
 \section*{}
 \begin{figure}[H]
 \graphicspath{{images/}}
-\caption{Implementación de Consulta en SQL para la Pregunta 6}
-\includegraphics[width=\textwidth]{P6.png} %cambiar esto 
+\caption{Implementación de Consulta en SQL para la Pregunta 14}
+\includegraphics[width=\textwidth]{P14.png} 
 \section*{¿Que cursos no tienen estudiantes inscritos?}
 
 \end{figure}
@@ -256,13 +281,11 @@ hacemos nuevamente un select que pida  nombre , apellidos y notas de todos los a
 \section*{}
 \begin{figure}[H]
 \graphicspath{{images/}}
-\caption{Implementación de Consulta en SQL para la Pregunta 6}
-\includegraphics[width=\textwidth]{P6.png} %cambiar esto 
+\caption{Implementación de Consulta en SQL para la Pregunta 15}
+\includegraphics[width=\textwidth]{P15.png} 
 \section*{¿Que estudiantes estan inscritos en mas de un curso?}
 
 \end{figure}
-\end{comment}
-
 
 \section{Conclusiones}
  
