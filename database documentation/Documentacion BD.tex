@@ -264,7 +264,9 @@ y los juntamos con el id de departamento de la tabla de departamentos y para fin
 \caption{Implementación de Consulta en SQL para la Pregunta 13}
 \includegraphics[width=\textwidth]{P13.png}  
 \section*{¿Cuantos profesores hay por departamento?}
-
+Aqui seleccionamos el nombre del curso y el nombre del profesor, luego hacemos un JOIN
+para unir la tabla de cursos con la de profesores y el ON es para unir los id del profesor con el 
+id del curso y para finalizar ordenamos por el nombre del curso
 
 \end{figure}
 
@@ -274,7 +276,9 @@ y los juntamos con el id de departamento de la tabla de departamentos y para fin
 \graphicspath{{images/}}
 \caption{Implementación de Consulta en SQL para la Pregunta 14}
 \includegraphics[width=\textwidth]{P14.png} 
-\section*{¿Que cursos no tienen estudiantes inscritos?}
+\section*{¿Que cursos no tienen estudiantes inscritos?} 
+Seleccionamos el nombre del curso, luego hacemos un LEFT JOIN 
+para unir la tabla de cursos con la de inscripciones
 
 \end{figure}
 
@@ -285,11 +289,14 @@ y los juntamos con el id de departamento de la tabla de departamentos y para fin
 \caption{Implementación de Consulta en SQL para la Pregunta 15}
 \includegraphics[width=\textwidth]{P15.png} 
 \section*{¿Que estudiantes estan inscritos en mas de un curso?}
+Seleccionamos el nombre y apellido de los estudiantes, luego hacemos un JOIN
 
 \end{figure}
 
 \section{Conclusiones}
- 
+En conclusión , este ejercicio de ingeniería inversa nos permitió comprender a fondo la 
+estructura y lógica de una base de datos "legacy". A través del análisis de los archivos proporcionados, 
+pudimos identificar las tablas, relaciones y consultas necesarias para extraer información relevante. 
 
 
 \end{document}

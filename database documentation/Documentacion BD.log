@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.2)  20 JUN 2026 21:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.2)  20 JUN 2026 21:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -305,13 +305,13 @@ Package pdftex.def Info: images/P13.png  used on input line 265.
 <images/P14.png, id=81, 368.1253pt x 304.13625pt>
 File: images/P14.png Graphic file (type png)
 <use images/P14.png>
-Package pdftex.def Info: images/P14.png  used on input line 276.
+Package pdftex.def Info: images/P14.png  used on input line 278.
 (pdftex.def)             Requested size: 345.0pt x 285.05276pt.
  [15 <./images/P13.png>]
 <images/P15.png, id=86, 316.18124pt x 237.13594pt>
 File: images/P15.png Graphic file (type png)
 <use images/P15.png>
-Package pdftex.def Info: images/P15.png  used on input line 286.
+Package pdftex.def Info: images/P15.png  used on input line 290.
 (pdftex.def)             Requested size: 345.0pt x 258.76974pt.
  [16 <./images/P14.png>] [17 <./images/P15.png>] (Documentacion BD.aux
 LaTeX Info: Redefining \. on input line 8.
@@ -323,15 +323,15 @@ L3 programming layer <2025-12-24>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4920 strings out of 467871
- 79643 string characters out of 5416925
+ 4921 strings out of 467871
+ 79658 string characters out of 5416925
  503685 words of memory out of 5000000
- 33785 multiletter control sequences out of 15000+600000
+ 33786 multiletter control sequences out of 15000+600000
  631708 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,12n,65p,315b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Personal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Personal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Personal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Personal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Personal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Personal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Documentacion BD.pdf" (17 pages, 450245 bytes).
+Output written on "Documentacion BD.pdf" (17 pages, 450982 bytes).
 PDF statistics:
  121 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

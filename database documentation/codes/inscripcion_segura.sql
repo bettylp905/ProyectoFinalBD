@@ -4,7 +4,11 @@ DELIMITER //
 
 CREATE PROCEDURE sp_inscribir_seguro (
     IN p_estudiante INT,
+<<<<<<< HEAD
     IN p_curso INT
+=======
+    OUT p_curso INT
+>>>>>>> 586bffb0419eb1e9a490198e10f8924369d5429b
 )
 BEGIN
     IF EXISTS(
