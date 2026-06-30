@@ -1,0 +1,88 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[spanish]{babel}
+\usepackage{listings}
+\usepackage{graphicx} %paqute para que pueda jalar mi imagen del diagrama
+\usepackage{float}
+\usepackage{comment}%para comentar desde la pergunta 11 a la 15
+% Preámbulo
+
+\title{Documentacion de un Sistema de Gestion para una Tienda Online}
+\author{Beatriz Garcia Lopez }
+\date{\today}
+
+\usepackage{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\lstset{style=mystyle}
+
+\begin{document}
+\maketitle
+
+
+
+
+\section{Introducción}
+Se nos ha 
+\section{Descripción del problema}
+Lo que hace 
+\section{Análisis y Diseño}
+En este apartado vamos a estructurar un poco las tablas y implementar un DER(Diagrama Entidad-Relacion) utilizando la página "Draw.io"
+\begin{table}[H]%para que lo ponga justo abajo de "Analisis"
+    \begin{tabular}{| c |p{9cm} |} % esto sirve para dar un salto de linea para que no se siga de largo en LaTeX
+        \hline
+        TABLAS & ¿QUE ORGANIZA? \\
+        \hline
+        Categorias                 & Organiza los productos en 5 categorias diferentes
+                                      (telefonos, laptops, accesorios, tablets y relojes inteligentes)\\ \hline
+        
+        Reseñas                    & Registra las reseñas de los productos y el ranking del mismo, el cual se evalua de
+                                      1 a 5 estrellas, siendo 1 = muy malo y 5 = excelente. Un detalle importante es que
+                                      las reseñas solo podran ser realizadas por clientes que hayan comprado un producto,
+                                      sin importar la categoria del mismo.\\ \hline
+
+        Pedidos                    & Especifica los detalles especificos del producto; como fecha de pedido y el estado
+                                      del mismo (Enviado, Pendiente y Entregado).\\ \hline
+        
+        Detalles del Pedido        & Guarda los datos especificos del pedido como por ejemplo
+                                      la cantidad (¿cuantos productos se van a enviar?) y el precio unitario del producto.\\ \hline
+        
+        Productos                  & Esta tabla es la mas importante ya que desde aqui vamos a poder gestionar todas las demas tablas.
+                                      Es como un "gestor que se conecta con todo lo demas". De igual manera, aqui tenemos el nombre, descripcion, precio y stock de todos los
+                                      productos disponibles al momento.\\ \hline
+
+        Clientes                   & En esta tabla esta toda la informacion personal del cliente como por ejemplo nombre, correo, telefono y direccion.\\ \hline
+
+    \end{tabular}
+\end{table}
+
+\section{Implementacion de la Base de Datos}
+
+\section{Consultas y Procedimientos Almacenados}
+
+\section{Validacion y Optimización}
+
+
+
+\end{document}
